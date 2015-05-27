@@ -1,0 +1,27 @@
+{
+  "global": {
+    "subdomain": "http://codepen.io",
+    "port": "",
+    "waitTime": 5000,
+    "viewports": [
+      {
+        "height": 1024,
+        "width": 1200
+      },
+      {
+        "height": 540,
+        "width": 480
+      }
+    ],
+    "seedType": "",
+    "screenShotDirectoryPath": "/screenshots/default"
+  },
+  "tests": [
+    {
+      "domain": ".io",
+      "moduleName": "Apples",
+      "relativeUrl": "/vishnun/full/pJEMLm/",
+      "waitTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "global": {
+    "subdomain": "http://localhost",
+    "port": 4000,
+    "waitTime": 5000,
+    "viewports": [
+      {
+        "height": 1024,
+        "width": 1200
+      }
+    ],
+    "seedType": "",
+    "screenShotDirectoryPath": "/screenshots/default"
+  },
+  "tests": [
+    {
+      "domain": "",
+      "moduleName": "Apples",
+      "relativeUrl": "/blogs/2015/02/15/how-to-be-not-a-just-ui-dev-at-thoughtworks.html",
+      "waitTime": 500
+    },
+    {
+      "domain": "",
+      "moduleName": "ManyImages",
+      "relativeUrl": "/blogs/2015/02/15/many-images-on-page.html",
+      "waitTime": 10
+    }
+  ]
+}
