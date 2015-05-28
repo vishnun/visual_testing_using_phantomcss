@@ -15,7 +15,7 @@
   "tests": [
     {
       "domain": "",
-      "moduleName": "Apples",
+      "moduleName": "textDifference",
       "relativeUrl": "/blogs/2015/02/15/how-to-be-not-a-just-ui-dev-at-thoughtworks.html",
       "waitTime": 500
     },
@@ -24,6 +24,13 @@
       "moduleName": "ManyImages",
       "relativeUrl": "/blogs/2015/02/15/many-images-on-page.html",
       "waitTime": 10
+    },
+    {
+      "domain": "",
+      "moduleName": "SelectorBased",
+      "relativeUrl": "/blogs/2015/02/15/many-images-on-page.html",
+      "waitTime": 10,
+      "cssSelector":"#cat"
     }
   ]
 }
