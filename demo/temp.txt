@@ -1,0 +1,35 @@
+--- Layout Issues: ---
+* css in main.scss
+
+{
+      "domain": "",
+      "moduleName": "textDifference",
+      "relativeUrl": "/blogs/2015/02/15/how-to-be-not-a-just-ui-dev-at-thoughtworks.html",
+      "waitTime": 500
+}
+
+--- Selector Based ---
+{
+      "domain": "",
+      "moduleName": "SelectorBased",
+      "relativeUrl": "/blogs/2015/02/15/many-images-on-page.html",
+      "waitTime": 10,
+      "cssSelector":"#thumbsUp"
+}
+
+
+--- Action Based: ---
+Supported events are mouseup, mousedown, click, mousemove, mouseover and mouseout:
+Eg: casper.mouseEvent('click', 'dropdown');
+
+
+{
+      "domain": "",
+      "moduleName": "ActionBased",
+      "relativeUrl": "/blogs/2015/05/07/action-based.html",
+      "waitTime": 1000,
+      "actionBased":true,
+      "action":"click",
+      "actionSelector": "#dropdown",
+      "cssSelector":".action"
+}
